@@ -1,4 +1,4 @@
-<img width="680" height="340" alt="image" src="https://github.com/user-attachments/assets/0198638d-6087-4ec5-b90a-dc305188db29" />
+<img width="680" height="340" alt="image" src="[https://github.com/user-attachments/assets/0198638d-6087-4ec5-b90a-dc305188db29](https://testnet.aztec.network/hero-image.svg)" />
 
 # Aztec Network Sequencer Node
 What Does It Do?
