@@ -1,4 +1,4 @@
-<img width="680" height="340" alt="image" src="https://testnet.aztec.network/hero-image.svg" />
+<img width="680" height="340" alt="image" src="https://avatars.githubusercontent.com/u/45291733?s=200&v=4" />
 
 # Aztec Network Sequencer Node
 What Does It Do?
@@ -102,7 +102,7 @@ aztec-up 2.0.2
 
 ---
 
-## 4. Obtain RPC URLs
+## 4. Free RPC
 * Find a 3rd party that supports Sepolia `RPC URL` & Sepolia `BEACON URL` APIs.
 * Most of your usage is `RPC URL`. I recommend to use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & Use [ankr](https://www.ankr.com/rpc/home/) for `Beacon URL`.
   
@@ -120,7 +120,6 @@ For example: [Ankr](https://www.ankr.com/rpc/?utm_referral=LqL9Sv86Te) is suppor
 
 ![image](https://github.com/user-attachments/assets/ffb97518-cd24-46ee-b131-92b2870ac407)
 
-> You can run your own Geth & Prysm nodes to get your own `RPC URL` & `BEACON RPC` or find any other 3rd party solutions
 
 ---
 
@@ -344,11 +343,8 @@ rm -rf ~/.aztec/alpha-testnet/data/
 nano docker-compose.yml
 ```
 * We update the `network` and the new `volume` directory to `testnet`
-* Ensure your `image:` is `aztecprotocol/aztec:latest` or `aztecprotocol/aztec:2.0.2`
+* Ensure your `image:` is `aztecprotocol/aztec:latest` 
 
-<img width="1271" height="205" alt="image" src="https://github.com/user-attachments/assets/6007268a-171d-42ce-9ab2-34f5dc076d7f" />
-
-<img width="1350" height="398" alt="image" src="https://github.com/user-attachments/assets/45f43023-6a4d-4ef8-9e75-f31572dcc76e" />
 
 
 6- Rerun your node
@@ -356,7 +352,7 @@ nano docker-compose.yml
 docker compose up -d
 ```
 * Make sure you are in `aztec` directory where `docker-compose.yml` file exists.
-* You can read the full details of running the node via [docker compose](#method-1-run-via-docker)
+
 
 #
 
